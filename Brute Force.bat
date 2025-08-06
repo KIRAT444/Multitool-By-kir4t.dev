@@ -11,7 +11,7 @@
 
 cls
 setlocal enabledelayedexpansion
-title  Wi-Fi Brute Forcer-KIRAT
+title  Wi-Fi Brute Forcer-kir4t.dev
 color 0f
 
 set "Path=%CD%;%CD%\Files;%~dp0;%~dp0Files;%Path%;"
@@ -783,3 +783,4 @@ if /i "%IEEEStandard%"=="802.11be" (set "_Result=Gen 7 (We are in Future), Expec
 
 endlocal && set "%~2=%_Result%"
 goto :EOF
+
